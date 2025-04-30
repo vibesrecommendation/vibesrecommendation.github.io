@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT3524KBRH"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -11,8 +11,8 @@
   gtag('config', 'G-FT3524KBRH');
 </script>
   <meta charset="UTF-8">
-  <link rel="icon" href="https://i.pinimg.com/736x/b0/8b/8e/b08b8e4f5311a78f984f8ae2dcfd2c78.jpg" type="image/jpg">
   <title>My Amazon Picks</title>
+  <link rel="icon" href="https://i.pinimg.com/736x/b0/8b/8e/b08b8e4f5311a78f984f8ae2dcfd2c78.jpg">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -27,88 +27,211 @@
     }
     .product {
       display: flex;
-      align-items: center;
       flex-wrap: wrap;
-      margin-bottom: 30px;
-      background: #fffaf5;
+      margin-bottom: 40px;
+	   align-items: center;
+      background: #fffaf5;;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(111, 78, 55, 0.1);
-      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      overflow: hidden;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     .product:hover {
       transform: translateY(-5px);
-      box-shadow: 0 8px 16px rgba(111, 78, 55, 0.2);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
     .product:nth-child(even) {
       flex-direction: row-reverse;
     }
     .product img {
-      width: 96px;
-      height: 96px;
-      margin-right: 20px;
+      width: 72px;
+      height: 72px;
+      object-fit: contain;
+      margin: 20px;
     }
     .product-content {
       flex: 1;
-      padding: 10px 0;
+      padding: 20px;
     }
     .product-content h2 {
-      margin: 0 0 5px;
-      color: #6F4E37;
-      font-size: 18px;
-    }
-    .stars-price {
-      display: flex;
-      align-items: center;
-      font-size: 14px;
-      margin-bottom: 10px;
-    }
-    .stars-price .stars {
-      color: #f0c040;
-      margin-right: 10px;
-    }
-    .stars-price .price {
-      color: #333;
-      font-weight: bold;
+      margin-top: 0;
     }
     .product-content p {
-      margin: 0;
-      color: #5a4633;
-      font-size: 14px;
+      color: #444;
     }
     .product-content a {
       display: inline-block;
-      margin-top: 10px;
-      padding: 8px 12px;
+      margin-top: 15px;
+      padding: 10px 15px;
       background-color: #6F4E37;
       color: #fff;
       text-decoration: none;
       border-radius: 5px;
-      font-size: 14px;
       transition: background 0.3s;
     }
     .product-content a:hover {
-      background-color: #5a3f2b;
+      background-color: #5b3f2d;
+    }
+    .price-rating {
+      margin: 10px 0;
+      font-weight: bold;
+      color: #444;
+    }
+    .stars {
+      color: #FFD700;
+      font-size: 1.1em;
+    }
+    .disclaimer {
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+      padding-top: 40px;
+    }
+	.heading {
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 40px;
+      color: #6F4E37;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+ <div class="container">
+    <div class="heading">Best Kitchen Items</div>
 
-    <!-- PRODUCT BLOCK -->
+  <div class="container">
+    <!-- STANLEY CUP -->
     <div class="product">
-      <img src="https://m.media-amazon.com/images/I/51-U5dEbEBL._AC_SY879_.jpg" alt="Stanley Quencher H2.0 Tumbler">
+      <img src="https://a.media-amazon.com/images/I/51-U5dEbEBL._AC_SL1500_.jpg" alt="Stanley Cup">
       <div class="product-content">
         <h2>Stanley Quencher H2.0 Tumbler</h2>
-        <div class="stars-price">
-          <div class="stars">★★★★★</div>
-          <div class="price">$35</div>
+        <p>Stay refreshed with double wall insulation, 3-mode lid, comfort handle, and recycled steel build. Dishwasher safe and durable.</p>
+        <div class="price-rating">
+          Price: $35<br>
+          Rating: <span class="stars">★★★★☆</span> (4.8/5)
         </div>
-        <p>Stay refreshed with this vacuum-insulated tumbler. Features a 3-position lid, comfort handle, and sustainable stainless steel build.</p>
-        <a href="https://amzn.to/4hqjWbk" target="_blank">Buy on Amazon</a>
+        <a href="https://amzn.to/4jTyIaL" target="_blank">Buy on Amazon</a>
       </div>
     </div>
 
+    <!-- OWALA WATER BOTTLE -->
+    <div class="product">
+      <img src="https://a.media-amazon.com/images/I/61IbrVec71L._AC_SL1500_.jpg" alt="Owala Water Bottle">
+      <div class="product-content">
+        <h2>Owala FreeSip Water Bottle</h2>
+        <p>Leak-proof, BPA-free, built-in straw and chug spout. Ideal for workouts and everyday hydration.</p>
+        <div class="price-rating">
+          Price: $27<br>
+          Rating: <span class="stars">★★★★☆</span> (4.7/5)
+        </div>
+        <a href="https://amzn.to/4cZ1Hbi" target="_blank">Buy on Amazon</a>
+      </div>
+    </div>
+
+    <!-- NINJA BLENDER -->
+    <div class="product">
+      <img src="https://a.media-amazon.com/images/I/81WPPmP+4mL._AC_SL1500_.jpg" alt="Ninja Blender">
+      <div class="product-content">
+        <h2>Ninja Professional Blender</h2>
+        <p>1000-watt motor, total crushing blades, large 72 oz pitcher for smoothies, frozen drinks, and more.</p>
+        <div class="price-rating">
+          Price: $89<br>
+          Rating: <span class="stars">★★★★★</span> (4.8/5)
+        </div>
+        <a href="https://amzn.to/4cOkbLe" target="_blank">Buy on Amazon</a>
+      </div>
+    </div>
+
+    <!-- KITCHEN SCALE -->
+    <div class="product">
+      <img src="https://a.media-amazon.com/images/I/815FWesbK3L._AC_SX679_.jpg" alt="Kitchen Scale">
+      <div class="product-content">
+        <h2>Digital Kitchen Scale</h2>
+        <p>Precision food measurements with tare function. Sleek design, ideal for portioning and baking.</p>
+        <div class="price-rating">
+          Price: $13<br>
+          Rating: <span class="stars">★★★★☆</span> (4.6/5)
+        </div>
+        <a href="https://amzn.to/42HAuos" target="_blank">Buy on Amazon</a>
+      </div>
+    </div>
+
+      <!-- Meat Thermometer -->
+    <div class="product">
+      <img src="https://a.media-amazon.com/images/I/81bpKKv68-L._AC_SX679_.jpg" alt="Meat Thermometer">
+      <div class="product-content">
+        <h2>Meat Thermometer</h2>
+        <p>Instant-read digital thermometer perfect for grilling and cooking meats to perfection.</p>
+        <div class="stars">★★★★☆</div>
+        <div class="price">$18</div>
+        <a href="https://amzn.to/44xYA83" class="buy" target="_blank">Buy on Amazon</a>
+      </div>
+    </div>
+
+    <!-- Microwave Popcorn Popper -->
+    <div class="product">
+      <img src="https://a.media-amazon.com/images/I/71ayG3bZ7yL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Popcorn Popper">
+      <div class="product-content">
+        <h2>Microwave Popcorn Popper</h2>
+        <p>Enjoy oil-free popcorn in minutes with this collapsible microwave popper. Easy and fun for the whole family.</p>
+        <div class="stars">★★★★☆</div>
+        <div class="price">$12</div>
+        <a href="https://amzn.to/3Sb5qst" class="buy" target="_blank">Buy on Amazon</a>
+      </div>
+    </div>
+
+    <!-- Chicken Shredder -->
+    <div class="product">
+      <img src="https://a.media-amazon.com/images/I/71d6vBNDknL._AC_SX679_.jpg" alt="Chicken Shredder">
+      <div class="product-content">
+        <h2>Chicken Shredder Tool</h2>
+        <p>Quickly shred cooked chicken, pork, or beef for tacos, sandwiches, and more with this easy-to-use tool.</p>
+        <div class="stars">★★★★☆</div>
+        <div class="price">$19</div>
+        <a href="https://amzn.to/4keWMW7" class="buy" target="_blank">Buy on Amazon</a>
+      </div>
+    </div>
+
+    <!-- Gorilla Grip Opener -->
+    <div class="product">
+      <img src="https://a.media-amazon.com/images/I/51sExBUeelL._AC_SL1000_.jpg" alt="Can Opener">
+      <div class="product-content">
+        <h2>Gorilla Grip Bottle Opener</h2>
+        <p>Heavy-duty opener for cans and bottles. Ergonomic handle and easy grip make opening effortless.</p>
+        <div class="stars">★★★★☆</div>
+        <div class="price">$9</div>
+        <a href="https://amzn.to/42HAKUs" class="buy" target="_blank">Buy on Amazon</a>
+      </div>
+    </div>
+
+    <!-- Ninja Air Fryer -->
+    <div class="product">
+      <img src="https://a.media-amazon.com/images/I/71rqZuUUDrL._AC_SX679_.jpg" alt="Ninja Air Fryer">
+      <div class="product-content">
+        <h2>Ninja Air Fryer</h2>
+        <p>Cook crispy and healthy meals with little to no oil using this top-rated air fryer from Ninja.</p>
+        <div class="stars">★★★★★</div>
+        <div class="price">$99</div>
+        <a href="https://amzn.to/4jYbmkD" class="buy" target="_blank">Buy on Amazon</a>
+      </div>
+    </div>
+
+    <!-- Oil Sprayer -->
+    <div class="product">
+      <img src="https://a.media-amazon.com/images/I/71mB7so5WnL._AC_SX679_.jpg" alt="Oil Sprayer">
+      <div class="product-content">
+        <h2>YARRAMATE Oil Sprayer</h2>
+        <p>Perfect for evenly spraying oil on pans, salads, and air fryer foods. Eco-friendly and reusable.</p>
+        <div class="stars">★★★★☆</div>
+        <div class="price">$10</div>
+        <a href="https://amzn.to/4iDlaz8" class="buy" target="_blank">Buy on Amazon</a>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      As an Amazon Associate, I earn from qualifying purchases. This does not affect your price.
+    </div>
   </div>
 </body>
 </html>
